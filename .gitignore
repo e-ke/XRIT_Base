@@ -74,5 +74,5 @@ crashlytics-build.properties
 # XR Device Simulatorを無視
 Assets/Samples/XR Interaction Toolkit/2.5.2/XR Device Simulator/*
 Assets/Samples/XR Interaction Toolkit/2.5.2/XR Device Simulator.meta
-Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset
-Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset.meta
+# XRDeviceSimulatorSettingsを無視 # なぜか無視されない
+Assets/Samples/XR Interaction Toolkit/2.5.2/XRDeviceSimulatorSettings.asset
