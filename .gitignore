@@ -75,3 +75,4 @@ crashlytics-build.properties
 Assets/Samples/XR Interaction Toolkit/2.5.2/XR Device Simulator/*
 Assets/Samples/XR Interaction Toolkit/2.5.2/XR Device Simulator.meta
 Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset
+Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset.meta
