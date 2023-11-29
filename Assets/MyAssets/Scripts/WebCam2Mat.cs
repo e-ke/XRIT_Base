@@ -4,7 +4,11 @@ using UnityEngine;
 public class WebCam2Mat : MonoBehaviour
 {
     [SerializeField] private Material mat;
-    
+
+    [SerializeField] private Material mat2;  // テスト用
+    [SerializeField] private Material mat3;  // テスト用
+    [SerializeField] private Material mat4;  // テスト用
+
     WebCamTexture webCamTex;
     WebCamDevice[] devices;
 
@@ -37,7 +41,13 @@ public class WebCam2Mat : MonoBehaviour
         // マテリアルのテクスチャにwebカメラテクスチャを適用
 
         // if (webCamTex.width>100 && mat != null) mat.mainTexture = webCamTex;
-        if (mat != null) mat.mainTexture = webCamTex;
+        if (mat != null)
+        {
+            mat.mainTexture = webCamTex;
+            mat2.mainTexture = webCamTex;  // テスト用
+            mat3.mainTexture = webCamTex;  // テスト用
+            mat4.mainTexture = webCamTex;  // テスト用
+        }
     }
 
     // カメラの変更
